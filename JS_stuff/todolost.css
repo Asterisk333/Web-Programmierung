@@ -1,0 +1,40 @@
+:root{
+
+}
+
+body{
+    background-color: #263238;
+    color: #8ac4ba;
+    padding: 0;
+    margin: 5em;
+
+    input, button{
+        background-color: #263238;
+        color: #8ac4ba;
+        border: 1px solid #8ac4ba;
+        border-radius: 5px;
+        padding: 10px;
+
+    }
+
+    ul{
+        padding-inline-start: 0;
+        li{
+            list-style-type: none;
+            border: 1px solid #8ac4ba;
+            border-radius: 5px;
+            padding: .5em;
+            margin: 1em 0;
+
+        }
+        .completed{
+            color: #eb6e75;
+            text-decoration-line: line-through;
+            border-color: #eb6e75;
+
+        }
+    }
+}
+
+
+
